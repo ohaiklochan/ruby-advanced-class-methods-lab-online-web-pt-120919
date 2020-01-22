@@ -49,6 +49,9 @@ class Song
     song.artist_name = array[0]
     song
   end
+  
+  def self.create_from_filename(filename)
+    
 
 end
 
