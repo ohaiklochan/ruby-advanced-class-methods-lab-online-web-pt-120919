@@ -53,8 +53,8 @@ class Song
   def self.create_from_filename(filename)
     x = self.find_by_name(filename)
     song = self.create
-    song.name = name
-    song.artist_name = artist_name
+    song.name = array[1]
+    song.artist_name = array[0]
     song
   end
 
