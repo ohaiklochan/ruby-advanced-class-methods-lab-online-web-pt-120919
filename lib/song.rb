@@ -46,7 +46,8 @@ class Song
     array[1] = array[1].chomp(".mp3")
     song = self.new
     song.name = array[1]
-    song.new_artist = 
+    song.artist_name = array[0]
+    
 
 end
 
