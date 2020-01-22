@@ -56,6 +56,7 @@ class Song
     array[1] = array[1].chomp(".mp3")
     song.name = array[1]
     song.artist_name = array[0]
+    @@all << self
     song
   end
 
